@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Drum</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="drum-machine">
+    <!--Heading-->
+    <header>
+        <div class="center-align">
+            <div class="header">
+                <header>
+                    <h1>Drum Machine</h1>
+                </header>
+            </div>
+        </div>
+    </header>
+
+    <!--Game Cards-->
+    <div id="drum" class="drum">
+        <div class="drum-pad" id="padQ">Q
+            <audio src="sc-tom/clap.wav" class="clip" id="Q"></audio>
+        </div>
+        <div class="drum-pad" id="padW">W
+            <audio src="sc-tom/closehat.wav" class="clip" id="W"></audio>
+        </div>
+        <div class="drum-pad" id="padE">E
+            <audio src="sc-tom/crash.wav" class="clip" id="E"></audio>
+        </div>
+        <div class="drum-pad" id="padA">A
+            <audio src="sc-tom/kick.wav" class="clip" id="A"></audio>
+        </div>
+        <div class="drum-pad" id="padS">S
+            <audio src="sc-tom/openhat.wav" class="clip" id="S"></audio>
+        </div>
+        <div class="drum-pad" id="padD">D
+            <audio src="sc-tom/snare.wav" class="clip" id="D"></audio>
+        </div>
+        <div class="drum-pad" id="padZ">Z
+            <audio src="sc-tom/tom1.wav" class="clip" id="Z"></audio>
+        </div>
+        <div class="drum-pad" id="padX">X
+            <audio src="sc-tom/tom2.wav" class="clip" id="X"></audio>
+        </div>
+        <div class="drum-pad" id="padC">C
+            <audio src="sc-tom/tom3.WAV" class="clip" id="C"></audio>
+        </div>
+
+    </div>
+    <!--Result Window-->
+    <div id="display">
+
+    </div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
